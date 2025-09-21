@@ -1,0 +1,5 @@
+.env
+!.envsample
+*.pyc
+__pycache__/
+aenv/   
