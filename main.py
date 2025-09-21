@@ -9,9 +9,13 @@ load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
+
+# Ask user for topic
+topic = input("Enter the topic for your quiz: ")
+
 # Define the prompt
 prompt = (
-    "Generate a quiz set of 10 questions in strict JSON format. "
+    f"Generate a quiz set of 10 questions about '{topic}' in strict JSON format. "
     "Each question should follow this predefined JSON response: "
     "{q, correctans, ans1, ans2, ans3, backstory}. "
     "Return only the JSON array, no extra text."
