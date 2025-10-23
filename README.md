@@ -55,3 +55,7 @@ Q1: What is the largest planet in our Solar System?
 ## Notes
 - Requires a valid Google Gemini API key.
 - Works best in terminals that support ANSI colors.
+
+## Contributors
+-Neelohith Rathod
+-AmarjithTK
