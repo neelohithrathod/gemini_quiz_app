@@ -57,5 +57,5 @@ Q1: What is the largest planet in our Solar System?
 - Works best in terminals that support ANSI colors.
 
 ## Contributors
--Neelohith Rathod
--AmarjithTK
+- Neelohith Rathod
+- AmarjithTK
